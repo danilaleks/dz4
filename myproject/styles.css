@@ -1,0 +1,46 @@
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.products, .new-products {
+    width: 45%;
+}
+
+h2 {
+    color: #1C1C1C;
+}
+/* static/css/styles.css */
+
+.container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form p {
+    margin: 10px 0;
+}
+
+button {
+    align-self: center;
+    padding: 10px 20px;
+    background-color: #1C1C1C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
